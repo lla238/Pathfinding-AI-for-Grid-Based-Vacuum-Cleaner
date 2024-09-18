@@ -4,11 +4,11 @@ This project implements common search algorithms to navigate and optimize the pa
 # Features
 ## 5 Search Algorithms:
 
-1. Breadth-First Search (BFS): Explores all possible rooms level by level from the starting position. This algorithm guarantees finding the shortest path in an unweighted grid but can be inefficient in terms of the number of rooms explored.
-2. Depth-First Search (DFS): Explores as deep as possible into one path before backtracking. While it may find a solution, it doesn't guarantee the shortest path and often explores unnecessary rooms.
-3. Uniform Cost Search (UCS): Similar to BFS, but takes into account the cost of moving between rooms. UCS ensures that the path with the lowest cumulative cost is found, making it optimal for grids with varying movement costs.
-4. Greedy Best-First Search: Focuses on moving towards the goal (a dirty room) based on the heuristic function (Manhattan or Euclidean distance). It prioritizes proximity to the goal but doesn't always find the shortest path.
-5. A*: Combines UCS and Greedy Search by using both the actual cost to reach a room and an estimate of the cost to reach the goal. A* is both optimal and efficient, finding the shortest path while minimizing the number of rooms explored.
+- **Breadth-First Search (BFS)**: Explores all possible rooms level by level from the starting position. This algorithm guarantees finding the shortest path in an unweighted grid but can be inefficient in terms of the number of rooms explored.
+- **Depth-First Search (DFS)**: Explores as deep as possible into one path before backtracking. While it may find a solution, it doesn't guarantee the shortest path and often explores unnecessary rooms.
+- **Uniform Cost Search (UCS)**: Similar to BFS, but takes into account the cost of moving between rooms. UCS ensures that the path with the lowest cumulative cost is found, making it optimal for grids with varying movement costs.
+- **Greedy Best-First Search**: Focuses on moving towards the goal (a dirty room) based on the heuristic function (Manhattan or Euclidean distance). It prioritizes proximity to the goal but doesn't always find the shortest path.
+- __A*__: Combines UCS and Greedy Search by using both the actual cost to reach a room and an estimate of the cost to reach the goal. A* is both optimal and efficient, finding the shortest path while minimizing the number of rooms explored.
 ## Heuristics:
 
 ### Manhattan Distance: A heuristic that calculates the total horizontal and vertical distance between the agent’s current position and the goal. This is useful in grids where movement is restricted to four directions (up, down, left, right) without diagonal movement.
