@@ -2,7 +2,10 @@
 This project implements common search algorithms to navigate and optimize the pathfinding of a vacuum cleaner in a grid of rooms. The grid contains obstacles, walls, and dirty rooms that need to be cleaned by the AI agent. The goal is to efficiently move the agent through the grid using various search techniques to clean all dirty rooms with the least amount of movement and computational cost.
 
 # Demo Video
-[Watch the demo](demo.mp4)
+<video width="640" height="360" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 # Features
